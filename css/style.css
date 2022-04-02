@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header {
+    display: flex;
+    border: 5px solid green;
+    font-family: 'Raleway', serif;
+}
+
+.container {
+    max-width: 1352px;
+    margin: auto;
+}
+
+.nav li {
+    padding: 30px;
+}
+
+.nav {
+    display: flex;
+    font-family:'Open Sans',serif;
+}
+
+.opener {
+    border: 5px solid red;
+    font-family: 'Raleway',serif;
+}
+.background{
+    bottom:0;
+}
+.title {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid blue;
+    padding: 15px;
+    margin:10px;
+    font-family: 'Raleway', serif;
+    /*position: relative;*/
+}
+.sign{
+    font-family: 'Open Sans', serif;
+}
+.btn {
+    border: 5px solid deeppink;
+    font-family: 'Open Sans', serif;
+    text-decoration: none;
+    background-color:#08A6E4;
+    padding:30px;
+}
