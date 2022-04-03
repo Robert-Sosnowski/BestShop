@@ -66,7 +66,6 @@
 }
 
 .title {
-    
     text-align: center;
     padding: 15px;
     margin: 10px;
@@ -123,7 +122,15 @@
     height: 63px;
     position: relative;
 }
-
+.circle1{
+    background-color: #FB3B64;
+}
+.circle2{
+    background-color: #08A6E4;
+}
+.circle3{
+    background-color: #55DFB4
+}
 .stats-sign {
     font-weight: lighter;
     font-size: 16px;
@@ -131,55 +138,50 @@
 
 .benefits {
     background-color: #F7F7F7;
+    display:flex;
 }
 
 .box {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
+    padding:20px;
     margin: 25px;
     background-color: #FFFFFF;
 }
 
 .box-header {
-    /*flex-direction: column;*/
     font-family: 'Raleway', serif;
     font-size: 36px;
     padding: 30px;
 }
 
 .box-sign {
-    /*flex-direction: row;*/
     font-family: 'Open Sans', serif;
     font-size: 16px;
 }
 
 .box-sign::after {
-
+    content: "";
+    width: 332px;
+    height: 4px;
+    display: block;
+    margin-top: 50px
 }
 
 .img1 {
-    background-color: #FB3B64;
     width: 386px;
     height: 219px;
-    align-self: flex-end;
 }
 
 .img2 {
-    background-color: #08A6E4;
     width: 426px;
     height: 328px;
-    align-self: flex-start;
 }
 
 .img3 {
     width: 296px;
     height: 208px;
-    background-color: #55DFB4;
-    align-self: flex-end;
 }
 .pricing-boxxes{
+    border:5px solid deeppink;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,6 +196,7 @@
     margin: 100px auto;
     border: 1px solid;
     border-radius: 18px;
+    max-width: 100%;
     width: 372px;
     height: 461px;
     box-shadow: 5px 10px 27px #07ACE629;
@@ -201,9 +204,7 @@
 
 
 .pricing-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     font-family: 'Raleway', serif;
     font-size: 36px;
 }
@@ -255,7 +256,7 @@
 
 .form-text {
     font-family: 'Open Sans', serif;
-    font-size: 15;
+    font-size: 15px;
     font-weight: bolder;
     color: #08A6E4;
 }
